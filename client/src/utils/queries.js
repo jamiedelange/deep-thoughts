@@ -76,10 +76,10 @@ export const QUERY_ME = gql`
                     username
                 }
             }
-        }
-        friends {
-            _id
-            username
+            friends {
+                _id
+                username
+            }
         }
     }
 `;
